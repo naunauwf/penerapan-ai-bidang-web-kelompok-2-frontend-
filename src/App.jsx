@@ -21,7 +21,7 @@ function App() {
       }
     } catch (err) {
       setError(
-        "Failed to connect to server. Make sure your internet connection is active.",
+        "Failed to connect to server. Make sure your internet connection is active",
       );
       console.error(err);
     } finally {
